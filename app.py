@@ -7,7 +7,7 @@ from transformers import pipeline
 import os
 
 # Load Whisper model (This will take time initially)
-model = whisper.load_model("base")  # You can change to "small", "medium", "large"
+model = whisper.load_model("tiny")  # You can change to "small", "medium", "large"
 
 # Load Sentiment Analysis Model
 sentiment_pipeline = pipeline("sentiment-analysis")
